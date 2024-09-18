@@ -1,0 +1,58 @@
+.game-card {
+  margin: 2rem auto;
+  max-width: 800px;
+  &__year {
+    display: inline-block;
+    padding: 0.2rem 1rem;
+    text-align: left;
+    border: 2px solid wheat;
+    border-radius: 10px 10px 0 0;
+  }
+  &__container {
+    border: 2px solid wheat;
+  }
+  &__title {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__name {
+    margin: 0 2rem;
+  }
+  &__rank {
+    margin: 0 2rem;
+  }
+  &__card {
+    display: flex;
+  }
+  &__image-container {
+    width: 30%;
+    max-width: 250px;
+    height: 300px;
+    margin: 1rem 2rem;
+  }
+  &__image {
+    width: 100%;
+    object-fit: fill;
+  }
+  &__text-container {
+    width: 70%;
+    height: 300px;
+    margin: 1.2rem 2rem;
+  }
+  &__description {
+    height: 260px;
+    overflow: hidden;
+  }
+  &__navigation {
+    margin-top: -0.5rem;
+    text-align: end;
+  }
+  &__navigation-button {
+    background-color: transparent;
+    border: none;
+
+    &:hover {
+      border: none;
+    }
+  }
+}

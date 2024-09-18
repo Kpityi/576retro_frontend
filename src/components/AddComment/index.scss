@@ -1,0 +1,16 @@
+.new-comment {
+  &__title {
+    text-align: center;
+  }
+
+  &__form-element {
+    display: block;
+    margin: 1rem 2rem;
+  }
+
+  &__error-message {
+    margin: 0.2rem 2rem;
+    color: red;
+    font-size: smaller;
+  }
+}

@@ -1,0 +1,39 @@
+.page-404 {
+  margin-top: 2rem;
+  &__image-box {
+    margin: 0 auto;
+    font-size: 1.5rem;
+    color: black;
+    width: 60vw;
+    height: 50vh;
+    background-color: white;
+    border-radius: 25px;
+    overflow: hidden;
+  }
+
+  &__text-box {
+    text-align: center;
+    margin: auto;
+
+    &-header {
+      margin-top: 1rem;
+      font-weight: 900;
+      font-size: 5.5rem;
+    }
+  }
+
+  &__button-container {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+  &__button {
+    font-weight: 600;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 25px;
+    line-height: normal;
+  }
+}

@@ -1,0 +1,35 @@
+.back-button {
+  display: inline-block;
+  width: 100px;
+  height: 60px;
+  background-color: rgb(0, 0, 182);
+  border-radius: 30px;
+  overflow: hidden;
+  border: none;
+
+  &:hover {
+    border: none;
+  }
+  &__arrow-container {
+    display: flex;
+    &:hover {
+      transform: scale(120%);
+      transition: all 0.5s ease-in-out;
+    }
+  }
+
+  &__triangle {
+    width: 0;
+    height: 0px;
+    border-right: 30px solid white;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+  }
+
+  &__rectangle {
+    margin-top: 10px;
+    width: 30px;
+    height: 20px;
+    background-color: white;
+  }
+}

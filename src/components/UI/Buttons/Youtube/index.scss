@@ -1,0 +1,27 @@
+.youtube-button {
+  display: inline-block;
+  width: 80px;
+  height: 60px;
+  background-color: red;
+  border-radius: 20px;
+  overflow: hidden;
+  border: none;
+
+  &:hover {
+    border: none;
+  }
+
+  &__triangle {
+    margin-left: 5px;
+    width: 0;
+    height: 0px;
+    border-left: 40px solid white;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+
+    &:hover {
+      transform: scale(120%);
+      transition: all 0.5s ease-in-out;
+    }
+  }
+}

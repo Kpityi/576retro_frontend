@@ -1,0 +1,11 @@
+.comment-box {
+  margin-top: 1rem;
+  border: 1px solid white;
+  border-radius: 15px;
+  padding: 0.8rem;
+
+  &__name {
+    margin-bottom: 0.3rem;
+    border-bottom: 1px solid white;
+  }
+}
