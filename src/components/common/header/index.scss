@@ -5,4 +5,13 @@
   background-size: cover;
   background-position: center;
   background-image: url('/576_retro_header_image.png');
+
+  &__title {
+    @media only screen and (max-width: 580px) {
+      transform: scale(80%);
+    }
+    @media only screen and (max-width: 450px) {
+      transform: scale(65%);
+    }
+  }
 }

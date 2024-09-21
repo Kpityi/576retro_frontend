@@ -33,6 +33,16 @@
   &__image {
     width: 100%;
     object-fit: fill;
+
+    @media only screen and (max-width: 580px) {
+      width: 120%;
+    }
+    @media only screen and (max-width: 480px) {
+      width: 150%;
+    }
+    @media only screen and (max-width: 400px) {
+      width: 180%;
+    }
   }
   &__text-container {
     width: 70%;
