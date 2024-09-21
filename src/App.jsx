@@ -13,7 +13,7 @@ function App() {
           <Route path="/" exact element={<HomePage />} />
           <Route path="/home" exact element={<Navigate replace to="/" />} />
           <Route path="/game/:gameId" element={<GamePage />} />
-          <Route path="*" element={<Page404 />} />
+          <Route path="*" element={<HomePage />} />
         </Routes>
       </Router>
     </>
